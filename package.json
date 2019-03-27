@@ -1,0 +1,29 @@
+{
+  "name": "sample-github-api-consumer-nodejs",
+  "version": "0.0.1",
+  "description": "Sample GitHub v4 API (GraphQL) Consumer Application with Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/furknyavuz/sample-github-api-consumer-nodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/furknyavuz/sample-github-api-consumer-nodejs/issues"
+  },
+  "homepage": "https://github.com/furknyavuz/sample-github-api-consumer-nodejs#readme",
+  "dependencies": {
+    "body-parser": "1.7.0",
+    "express": "^4.8.7",
+    "moment": "^2.17.1",
+    "moment-timezone": "^0.5.13",
+    "mongoose": "^5.1.1",
+    "node-uuid": "^1.4.8",
+    "sync-request": "^4.0.2"
+  }
+}
