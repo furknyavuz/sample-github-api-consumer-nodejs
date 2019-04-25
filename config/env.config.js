@@ -3,5 +3,6 @@ module.exports = {
     "environment": "dev",
     "mongoDbUri": process.env.MONGODB_URI || "mongodb://localhost/github-consumer",
     "githubEndpoint": "https://api.github.com/graphql",
-    "githubAccessToken": process.env.GITHUB_ACCESS_TOKEN
+    "githubAccessToken": process.env.GITHUB_ACCESS_TOKEN,
+    "netlifyEndpoint": process.env.NETLIFY_BUILD_HOOK || ""
 };
