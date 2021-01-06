@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/furknyavuz/sample-github-api-consumer-nodejs#readme",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "body-parser": "1.7.0",
     "cron": "^1.7.0",
     "express": "^4.8.7",
